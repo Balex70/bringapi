@@ -65,4 +65,11 @@ abstract class ClientUrls
     const BOOKING_LIST_CUSTOMER_NUMBERS = 'https://api.bring.com/booking/api/customers.%s';
     const BOOKING_BOOK_SHIPMENTS = 'https://api.bring.com/booking/api/booking';
     const BOOKING_ORDER_PICKUPS = 'https://api.bring.com/booking/api/pickupOrder';
+
+    /**
+     * Links for Event Cast API
+     */
+    const EVENT_CREATE_WEBHOOK = 'https://api.bring.com/event-cast/api/v1/webhooks';
+    const EVENT_GET_ALL_WEBHOOKS = 'https://api.bring.com/event-cast/api/v1/webhooks';
+    const EVENT_DELETE_WEBHOOK = 'https://api.bring.com/event-cast/api/v1/webhooks/%s';
 }
