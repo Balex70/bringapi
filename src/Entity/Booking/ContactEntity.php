@@ -35,4 +35,18 @@ use Crakter\BringApi\Entity\ApiEntityInterface;
  */
 class ContactEntity extends ApiEntityBase implements ApiEntityInterface
 {
+    /**
+     * @var string $name
+     */
+    public string $name;
+
+    /**
+     * @var string $email
+     */
+    public string $email;
+
+    /**
+     * @var string $phoneNumber
+     */
+    public string $phoneNumber;
 }

@@ -68,4 +68,9 @@ class AddressEntity extends ApiEntityBase implements ApiEntityInterface
      * @var string $countryCode This needs to be set to the Country of address
      */
     public $countryCode;
+
+    /**
+     * @var array $contact
+     */
+    public $contact;
 }

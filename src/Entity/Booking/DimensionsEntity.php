@@ -37,4 +37,18 @@ use Crakter\BringApi\Entity\ApiEntityInterface;
  */
 class DimensionsEntity extends ApiEntityBase implements ApiEntityInterface
 {
+    /**
+     * @var int $heightInCm
+     */
+    public $heightInCm;
+
+    /**
+     * @var int $widthInCm
+     */
+    public $widthInCm;
+
+    /**
+     * @var int $lengthInCm
+     */
+    public $lengthInCm;
 }
