@@ -59,4 +59,9 @@ class ConfigurationEntity extends ApiEntityBase implements ApiEntityInterface
 
         return $this;
     }
+
+    public function setUrl(string $url): void
+    {
+        $this->url = $url;
+    }
 }

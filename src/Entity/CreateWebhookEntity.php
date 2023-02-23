@@ -43,6 +43,11 @@ class CreateWebhookEntity extends ApiEntityBase implements ApiEntityInterface
      */
     public $trackingId;
 
+    public function setConfiguration(array $configuration): void
+    {
+        $this->configuration = $configuration;
+    }
+
     /**
      * Set $eventGroups When registering for a Webhook you can choose between a range of different event groups that you can subscribe for
      *
@@ -53,5 +58,10 @@ class CreateWebhookEntity extends ApiEntityBase implements ApiEntityInterface
     public function setEventGroups(array $event_groups): void
     {
         $this->event_groups = $event_groups;
+    }
+
+    public function setTrackingId(string $trackingId): void
+    {
+        $this->trackingId = $trackingId;
     }
 }
