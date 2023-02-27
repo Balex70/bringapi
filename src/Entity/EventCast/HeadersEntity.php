@@ -38,4 +38,14 @@ class HeadersEntity extends ApiEntityBase implements ApiEntityInterface
      * @var string
      */
     public $value;
+
+    public function setKey(string $key): void
+    {
+        $this->key = $key;
+    }
+
+    public function setValue(string $value): void
+    {
+        $this->value = $value;
+    }
 }
